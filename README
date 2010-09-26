@@ -42,3 +42,18 @@ alias git="git-achievements"
 You can get your first achievement by running
 
     git achievements --help
+
+PowerShell Install
+------------------
+Alias git to git-achievements.ps1.
+
+For example, add the following to the end of your $PROFILE:
+
+Set-Alias git $HOME\git\git-achievements\git-achievements.ps1
+
+Open a new session, or run . $PROFILE, to apply the changes.
+
+You can get your first achievement by running
+
+    git achievements --help
+
